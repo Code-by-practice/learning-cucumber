@@ -22,11 +22,10 @@ For Golang:
 protoc -I=golang --go_out=golang proto/person.proto
 ```
 
-Use PyCharm
 ```
 cd examples/inPython
-
-For Python:
 protoc -I=person/ --python_out=person/ person/person.proto
 
+cd examples/inGolang
+protoc -I=person/ --go_out=person/ person/person.proto
 ```
