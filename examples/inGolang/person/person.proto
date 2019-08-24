@@ -2,6 +2,9 @@ syntax = "proto3";
 
 package profile;
 
+// Only for Golang
+option go_package = "profilepb";
+
 message Person {
     string username = 1;
     string first_name = 2;
