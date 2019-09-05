@@ -35,3 +35,7 @@
 * Lack of resources and smaller community.
 * Lack of support.
 * Non-human readability.
+
+## References
+
+* [Style guide](https://developers.google.com/protocol-buffers/docs/style)
