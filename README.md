@@ -2,6 +2,11 @@
 
 Cover the basics of protobuf creation, generation and usage.
 
+## Prerequisites
+
+* Protobuf compiler (protoc) [https://github.com/protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf)
+
+
 ## How to write and compile .proto file?
 
 To generate code for specific langauge from .proto file we'll be using protoc compiler.
